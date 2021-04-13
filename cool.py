@@ -45,5 +45,11 @@ def what_num(n = ...):
         
 what_num()
 
-
+print("########################################")
+def _cmp(x, y):
+    return 0 if x == y else 1 if x > y else -1
     
+print(_cmp(1, 1)) #0
+print(_cmp(1, 2)) #-1
+print(_cmp(2, 1)) #1
+
